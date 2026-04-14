@@ -462,30 +462,45 @@
         <form class="modal-form">
           <div class="modal-form-field">
             <label class="modal-form-label" for="name">Name</label>
-            <input
-              class="modal-form-input"
-              type="text"
-              name="username"
-              id="name"
-            />
+            <div class="modal-input-inner">
+              <input
+                class="modal-form-input"
+                type="text"
+                name="username"
+                id="name"
+              />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-form-field">
             <label class="modal-form-label" for="phone">Phone</label>
-            <input
-              class="modal-form-input"
-              type="tel"
-              name="userphone"
-              id="phone"
-            />
+            <div class="modal-input-inner">
+              <input
+                class="modal-form-input"
+                type="tel"
+                name="userphone"
+                id="phone"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-form-field">
             <label class="modal-form-label" for="email">Email</label>
-            <input
-              class="modal-form-input"
-              type="email"
-              name="useremail"
-              id="email"
-            />
+            <div class="modal-input-inner">
+              <input
+                class="modal-form-input"
+                type="email"
+                name="useremail"
+                id="email"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-form-textarea">
             <label class="modal-form-label" for="comment">Comment</label>
@@ -519,5 +534,6 @@
       </div>
     </div>
     <!-- #endregion modale window -->
+    <script src="./script.js"></script>
   </body>
 </html>
